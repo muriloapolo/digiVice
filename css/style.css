@@ -36,7 +36,7 @@ body {
 .digiName {
   font-family: monospace, fantasy, "Courier New", Courier, monospace;
   font-weight: 900;
-  font-size: clamp(3em, 3vh, 5em);
+  font-size: clamp(3vh, 2em, 5em);
 
   display: inline;
   text-shadow: 1px 1px 5px #3917fa;
