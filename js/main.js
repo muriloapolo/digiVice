@@ -59,9 +59,13 @@ class Digivice {
         this.display()
       }
     });
+    home.addEventListener('click', ()=>{
+      this.ind = 1;
+      this.display()
+    })
   }
   async digiConsole(digi,digiId,digiName,tela) {
-    
+
     let dataD = await dataBase(digi);
     if (dataD) {
       digiId.innerText = dataD.id;
