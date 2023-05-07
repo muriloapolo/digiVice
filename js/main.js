@@ -35,7 +35,7 @@ class Digivice {
     const digiName = document.querySelector(".digiName");
     const tela = document.querySelector(".digi-echo");
     this.digiConsole(this.ind,digiId, digiName,tela);
-    // this.digitela(tela)
+    
   }
   listeners(next, prev, home) {
     //NEXT
@@ -71,8 +71,8 @@ class Digivice {
     }
   }
 }
-dataBase(1)
-const newDigivice = new Digivice(dataBase, 1);
+
+const newDigivice = new Digivice(dataBase);
 newDigivice.buttons();
 newDigivice.display();
 
